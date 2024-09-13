@@ -6,7 +6,7 @@ import girl from '../assets/laptopGirl.avif'
 
 const HeroSection = () => {
   return (
-    <Box sx={{ p: { md: "110px 80px", xs: "30px 20px" } }}>
+    <Box sx={{ p: { md: "150px 80px", xs: "80px 20px" } }}>
       <Grid
         container
         sx={{
