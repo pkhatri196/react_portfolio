@@ -12,7 +12,7 @@ import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
 import ListItemText from "@mui/material/ListItemText";
 
-function Navbar({ homeRef, skillsRef, projectsRef, contactRef }) {
+function Navbar({ heroRef, skillsRef, projectsRef, contactRef }) {
   const [value, setValue] = React.useState(0);
   const [drawerOpen, setDrawerOpen] = React.useState(false);
 
