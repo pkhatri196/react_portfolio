@@ -22,7 +22,7 @@ function Navbar({ heroRef, skillsRef, projectsRef, contactRef }) {
   };
 
   const scrollToSection = (index) => {
-    const sections = [homeRef, skillsRef, projectsRef, contactRef];
+    const sections = [heroRef, skillsRef, projectsRef, contactRef];
     sections[index].current.scrollIntoView({ behavior: "smooth" });
   };
 
